@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Codex workspace placeholders
+.git/
+.agents/
+.codex/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Local model/data artifacts
+data/
+weights/
+checkpoints/
+.cache/
+
+# Training and evaluation outputs
+output/
+outputs/
+output_*/
+outputs_*/
+seg_results/
+trained_models/
+*.log
+
+# Large model artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Local documents and generated paper artifacts
+papers/
+scripts/create_paper_figures.py
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
